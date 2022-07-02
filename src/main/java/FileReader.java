@@ -1,11 +1,13 @@
 import java.io.BufferedReader;
 import java.io.IOException;
+import java.util.Arrays;
 
 public class FileReader {
     /**
      * Чтение файла по пути в соответствии с переданной валютой
      *
      * @param currency - переданный тип валюты
+     * @return costNew - массив из преобразованных значений 7 последних курсов валюты
      */
     public static double[] fileRead(String currency) {
 

@@ -1,8 +1,9 @@
 public class CurrencyPeriodWeek {
     /**
-     * Обработка прогноза на неделю
+     * Обработка прогноза на 7 дней курсов валют из файла и возвращет их
      *
-     * @param cost - входное значение
+     * @param cost - входное значение карсов валют за 7 дней
+     * @return последние 7 курсов валют номиналом 1
      */
     public static double[] forecastForWeek(double[] cost) {
         double[] costWeek = new double[Constans.DAYS];

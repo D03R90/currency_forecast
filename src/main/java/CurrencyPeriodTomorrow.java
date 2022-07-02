@@ -2,9 +2,10 @@ import java.math.BigDecimal;
 
 public class CurrencyPeriodTomorrow {
     /**
-     * Обработка прогноза на 1 день
+     * Обработка прогноза курса переданной валюты на завтра
      *
-     * @param cost - входное значение
+     * @param cost - входное значение карсов валют за 7 дней
+     * @return Срендий курс валюты за неделю
      */
     public static double forecastForDay(double[] cost) {
         double sum = 0;

@@ -23,7 +23,8 @@ public class FunctionsProcessingData {
      * Функция для получения массива Дней недели
      *
      * @param week Запрос на обработку недели
-     */public static String[] processingDays(LocalDate[] week) {
+     */
+    public static String[] processingDays(LocalDate[] week) {
         String[] weekDays = new String[Constans.DAYS];
         for (int i = 0; i < Constans.DAYS; i++) {
             weekDays[i] = week[i].getDayOfWeek().getDisplayName(TextStyle.SHORT, Locale.forLanguageTag("Ru"));
