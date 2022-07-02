@@ -1,10 +1,5 @@
 public class Constans {
-    /**
-     * Констанда с колличесвтой дней
-     *
-     * @param cost - значение валюты
-     */
-    public static int CONST_DAYS = 7;
+    public static int DAYS = 7;
 
     /**
      * Подмена разделителя
@@ -18,4 +13,7 @@ public class Constans {
         }
         return costdouble;
     }
+
+
+
 }

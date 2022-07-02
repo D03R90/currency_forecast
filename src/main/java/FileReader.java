@@ -12,10 +12,10 @@ public class FileReader {
         String filePath = "src//main//resources//RC_F01_06_2002_T17_06_2022_" + currency + ".csv";
 
         BufferedReader reader = null;
-        double[] costNew = new double[Constans.CONST_DAYS];
+        double[] costNew = new double[Constans.DAYS];
         try {
             String line;
-            String[] cost = new String[Constans.CONST_DAYS];
+            String[] cost = new String[Constans.DAYS];
             reader = new BufferedReader(new java.io.FileReader(filePath));
 
             for (int i = 0; i < 8; i++) {
