@@ -1,3 +1,4 @@
+package liga;
 public class CurrencyPeriodWeek {
     /**
      * Обработка прогноза на 7 дней курсов валют из файла и возвращет их

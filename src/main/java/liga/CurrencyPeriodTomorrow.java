@@ -1,4 +1,4 @@
-import java.math.BigDecimal;
+package liga;
 
 public class CurrencyPeriodTomorrow {
     /**

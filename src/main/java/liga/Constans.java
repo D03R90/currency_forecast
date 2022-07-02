@@ -1,3 +1,4 @@
+package liga;
 public class Constans {
 
     /**
